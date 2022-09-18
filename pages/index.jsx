@@ -58,15 +58,6 @@ const Shop = () => {
     alert(`${productName} added to cart.`)
   }
 
-  const {isLoaded, userId} = useAuth()
-  console.log(useAuth, 'USEaUTH')
-  if (!isLoaded || !userId) {
-    return null  
-  }
-
-  const handleSignOut = () => {
-    alert('yeah')
-  }
 
   return(
       <div className="ecommerce">
