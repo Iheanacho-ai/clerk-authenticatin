@@ -1,6 +1,4 @@
-import {useAuth} from '@clerk/nextjs';
 import { UserButton } from "@clerk/clerk-react";
-
 
 const Shop = () => {
   const productList = [
