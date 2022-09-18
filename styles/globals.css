@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -10,17 +14,18 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+.sign-up-form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.form{
+  width: 20%;
+  margin-top: 10%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
